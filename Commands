@@ -1,0 +1,12 @@
+scp -r ubuntu@52.13.211.25:rtb_uri .
+ssh ubuntu@52.13.211.25
+
+git commands
+
+git status
+git commit -m "comment"
+git push origin master
+git add filename
+
+
+
