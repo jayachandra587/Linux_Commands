@@ -1,12 +1,13 @@
 scp -r ubuntu@52.13.211.25:rtb_uri .
 ssh ubuntu@52.13.211.25
 
-git commands
 
-git status
-git commit -m "comment"
+git init
+git remote add origin "repositry name"
+git remote -v
+git config core.autocrlf true -CRLF Error to ignore .git ignore file
+git add .
+git commit -m "comments"
 git push origin master
-git add filename
-
 
 
