@@ -8,6 +8,6 @@ git remote -v
 git config core.autocrlf true -CRLF Error to ignore .git ignore file
 git add .
 git commit -m "comments"
-git push origin master
+git push -u origin master
 
 
